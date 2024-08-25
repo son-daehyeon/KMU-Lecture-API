@@ -1,19 +1,5 @@
-from util.Request import Request
-
-
-class Participant:
-    def __init__(self, id: int, student_id: int, name: str, institution: str, department: str):
-        self.id = id
-        self.student_id = student_id
-        self.name = name
-        self.institution = institution
-        self.department = department
-
-    def __str__(self):
-        return self.__repr__()
-
-    def __repr__(self):
-        return f"Participant(id={self.id}, student_id={self.student_id}, name={self.name}, institution={self.institution}, department={self.department})"
+from Participant import Participant
+from Request import Request
 
 
 class Lecture:

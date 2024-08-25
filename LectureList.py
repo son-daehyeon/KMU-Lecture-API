@@ -1,14 +1,6 @@
-from enum import Enum
-
-from util.Lecture import Lecture
-from util.Request import Request
-
-
-class Semester(Enum):
-    FIRST = 10
-    FIRST_VACATION = 11
-    SECOND = 20
-    SECOND_VACATION = 21
+from Lecture import Lecture
+from Request import Request
+from Semester import Semester
 
 
 class LectureList:

@@ -1,11 +1,11 @@
-from util.Request import Request
+from Request import Request
 
 
 class Token:
     @staticmethod
-    def login(id: str, password: str) -> str:
+    def login(username: str, password: str) -> str:
         params = {
-            'userid': id,
+            'userid': username,
             'password': password
         }
 
